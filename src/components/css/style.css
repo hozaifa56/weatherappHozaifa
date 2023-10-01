@@ -2,3 +2,11 @@
     background-color: white;
     border-radius: 10%;
 }
+.cardss{
+    width: 28rem;
+}
+@media screen and (max-width: 768px) {
+    .cardss{
+        width: 20rem;
+    }
+}

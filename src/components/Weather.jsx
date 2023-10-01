@@ -23,7 +23,7 @@ export default function Weather() {
 
   return (
     <div className="data">
-      <div className="card my-5" style={{ width: "28rem" }}>
+      <div className="card cardss my-5" >
         <img src={wea} className="card-img-top" alt="..." />
         <div className="card-body">
           <h2 className="card-title text-center">Weather App By Hozaifa</h2>
