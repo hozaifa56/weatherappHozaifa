@@ -8,7 +8,7 @@ const apiKey = '3ed0053641464e6eca6ec551dd84bb0b'; // Replace with your OpenWeat
 
 export default function Weather() {
   const [city, setCity] = useState(null);
-  const [search, setSearch] = useState('Mumbai');
+  const [search, setSearch] = useState(null);
 
   useEffect(() => {
     const fetchApi = async () => {
